@@ -4,8 +4,8 @@ const https = require('https');
 const mysql = require('mysql');
 const jwt = require('jsonwebtoken');
 const dns = require('dns');
+const hostname = '0.0.0.0';
 const port = process.env.PORT || 3000;
-const hostname = 'localhost';
 const axios = require('axios');
 const {post} = require("axios");
 
